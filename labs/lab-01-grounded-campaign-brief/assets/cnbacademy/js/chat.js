@@ -1,0 +1,6 @@
+const panel=document.querySelector('#chat-panel'),log=document.querySelector('#chat-log'),form=document.querySelector('#chat-form'),input=document.querySelector('#chat-input');
+let courses=[];fetch('data/courses.json').then(r=>r.json()).then(d=>courses=d);
+function message(text){const p=document.createElement('p');p.className='chat-message';p.textContent=text;log.append(p);}
+document.querySelectorAll('[data-open-chat]').forEach(b=>b.addEventListener('click',()=>{panel.hidden=false;input.focus();if(!log.children.length)message('Search the fictional catalogue by course code or title. No API key is needed.');}));
+document.querySelector('[data-close-chat]').addEventListener('click',()=>panel.hidden=true);
+form.addEventListener('submit',e=>{e.preventDefault();const q=input.value.trim().toLowerCase();message(input.value);input.value='';const hits=courses.filter(c=>q.includes(c.code.toLowerCase())||c.title.toLowerCase().split(' ').some(w=>w.length>4&&q.includes(w)));message(hits.length?hits.slice(0,3).map(c=>`${c.code}: ${c.title}. S$${c.fee}; ${c.weeks} week(s); ${c.when}; ${c.campus}. Source: data/courses.json (fictional teaching data).`).join('\n'):'UNKNOWN in the supplied catalogue. Search a course code such as BAK-101.');});

@@ -1,0 +1,6 @@
+day,platform,pillar,audience,asset,source,cta,owner,dependency,status,hard_sell
+Day 1,Instagram,teach,weekend home baker,content/article.md,BAK-101.learn,View demo details,classroom marketer,content/article.md,draft,no
+Day 3,Instagram,teach,weekend home baker,content/instagram.md,BAK-101.learn,View demo details,classroom marketer,content/instagram.md,draft,no
+Day 5,Instagram,teach,weekend home baker,content/facebook.md,BAK-101.learn,View demo details,classroom marketer,content/facebook.md,draft,no
+Day 7,Instagram,question,weekend home baker,content/posts.md,BAK-101.bring,View demo details,classroom marketer,content/posts.md,draft,no
+Day 9,Instagram,invite,weekend home baker,creative/sourdough/flyer-square.pdf,BAK-101.title;weeks;fee;when;campus,View demo details,classroom marketer,creative/sourdough/flyer-square.pdf,draft,yes

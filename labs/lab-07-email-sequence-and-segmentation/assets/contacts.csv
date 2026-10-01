@@ -1,0 +1,9 @@
+id,email,first_name,consent,interest,suppressed
+C001,learner1@example.com,Ada,yes,bakery,no
+C002,learner2@example.com,Ben,no,bakery,no
+C003,learner3@example.com,Chen,yes,cooking,no
+C004,learner4@example.com,,yes,bakery,no
+C005,learner5@example.com,Dee,yes,bakery,yes
+C006,learner6@example.com,Eli,yes,bakery,no
+C007,learner7@example.com,Fay,,bakery,no
+C008,learner8@example.com,Gus,yes,cooking,yes

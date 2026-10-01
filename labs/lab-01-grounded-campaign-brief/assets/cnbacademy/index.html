@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FBF7F1">
+  <meta name="description" content="Explore hands-on baking and cooking courses at Cook & Bake Academy in Singapore.">
+  <title>Cook &amp; Bake Academy | Hands-on courses in Singapore</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23B5652D'/%3E%3Ctext x='32' y='45' text-anchor='middle' fill='white' font-size='43' font-family='Georgia'%3EC%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/app.js"></script>
+  <script type="module" src="js/chat.js"></script>
+</head>
+<body>
+<div style="padding:8px;text-align:center;background:#2B211B;color:#FBF7F1;font:14px sans-serif">C818 fictional teaching website · Demo data only</div>
+<div style="padding:8px;text-align:center;background:#2B211B;color:#FBF7F1;font:14px sans-serif">C818 fictional teaching website · Demo data only</div>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="wordmark" href="#top" aria-label="Cook and Bake Academy home">Cook <span>&amp;</span> Bake <small>ACADEMY</small></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#courses">Courses</a>
+        <a href="#campuses">Campuses</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="shell hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> MADE BY HAND · TAUGHT WITH CARE</p>
+          <h1 id="hero-title">Good food starts <em>with your hands.</em></h1>
+          <p class="hero-pitch">Learn cooking and baking from working chefs in small, hands-on classes.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#courses">Browse courses <span aria-hidden="true">↗</span></a>
+            <button class="button button-outline" id="assistant-open" data-open-chat type="button">Ask our course assistant</button>
+          </div>
+          <div class="hero-proof" aria-label="Academy at a glance">
+            <span><strong>20</strong> courses</span>
+            <span><strong>12</strong> learners per class</span>
+            <span><strong>2</strong> campuses</span>
+          </div>
+        </div>
+        <div class="hero-collage" aria-hidden="true">
+          <img class="hero-photo hero-photo-main" src="https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?auto=format&amp;fit=crop&amp;w=900&amp;q=70" alt="" width="900" height="1100" fetchpriority="high">
+          <img class="hero-photo" src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&amp;fit=crop&amp;w=600&amp;q=70" alt="" width="600" height="600">
+          <img class="hero-photo" src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&amp;fit=crop&amp;w=600&amp;q=70" alt="" width="600" height="600">
+          <div class="collage-note">A little flour.<br>A lot of possibility.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="course-section shell" id="courses" aria-labelledby="courses-title">
+      <div class="section-intro">
+        <div>
+          <p class="section-kicker">FIND YOUR NEXT SKILL</p>
+          <h2 id="courses-title">Explore our courses<span class="accent-dot">.</span></h2>
+          <p>Weekend workshops and deeper courses, with room to ask questions and practise.</p>
+        </div>
+        <span class="section-number" aria-hidden="true">01 / COURSES</span>
+      </div>
+      <div class="catalogue-controls">
+        <div class="filter-group" role="group" aria-label="Filter courses by category">
+          <button class="filter-chip is-active" type="button" data-filter="All" aria-pressed="true">All</button>
+          <button class="filter-chip" type="button" data-filter="Bakery" aria-pressed="false">Bakery</button>
+          <button class="filter-chip" type="button" data-filter="Cooking" aria-pressed="false">Cooking</button>
+        </div>
+        <div class="search-field">
+          <label for="course-search">Search courses</label>
+          <input id="course-search" type="search" placeholder="Try sourdough or beginner" autocomplete="off">
+        </div>
+      </div>
+      <p class="catalogue-status" id="course-status" role="status" aria-live="polite">Loading courses…</p>
+      <div class="course-grid" id="course-grid"></div>
+    </section>
+
+    <section class="campuses-section" id="campuses" aria-labelledby="campuses-title">
+      <div class="shell">
+        <div class="section-intro">
+          <div>
+            <p class="section-kicker">WHERE WE COOK</p>
+            <h2 id="campuses-title">Two places to make something good<span class="accent-dot">.</span></h2>
+          </div>
+          <span class="section-number" aria-hidden="true">02 / CAMPUSES</span>
+        </div>
+        <div class="campus-grid">
+          <article class="campus-card">
+            <span class="campus-index">01 / BAKERY</span>
+            <h3>Orchard Road</h3>
+            <p>Our home for bread, pastry, cake and confectionery courses.</p>
+            <a href="#courses" data-campus-filter="Bakery">Browse bakery courses <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="campus-card">
+            <span class="campus-index">02 / COOKING</span>
+            <h3>Bukit Timah</h3>
+            <p>Our home for cooking courses, from kitchen essentials to regional cuisines.</p>
+            <a href="#courses" data-campus-filter="Cooking">Browse cooking courses <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section shell" id="faq" aria-labelledby="faq-title">
+      <div class="section-intro">
+        <div>
+          <p class="section-kicker">GOOD TO KNOW</p>
+          <h2 id="faq-title">Frequently asked questions<span class="accent-dot">.</span></h2>
+        </div>
+        <span class="section-number" aria-hidden="true">03 / FAQ</span>
+      </div>
+      <div id="faq-content"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <span class="footer-brand">Cook <span>&amp;</span> Bake Academy</span>
+      <span>Learn it. Make it. Take it further. <a href="admin.html">Staff sign-ups</a></span>
+    </div>
+  </footer>
+
+  <dialog id="signup-dialog" aria-labelledby="signup-title">
+    <div class="signup-dialog-inner">
+      <button class="dialog-close" id="signup-close" type="button" aria-label="Close sign-up form">×</button>
+      <div id="signup-entry">
+        <p class="section-kicker">JOIN A CLASS</p>
+        <h2 id="signup-title">Sign up</h2>
+        <dl class="signup-course" id="signup-course" aria-label="Selected course"></dl>
+        <form id="signup-form" novalidate>
+          <div class="form-field">
+            <label for="signup-intake">Intake <span aria-hidden="true">*</span></label>
+            <select id="signup-intake" name="intake" required aria-describedby="signup-intake-error"></select>
+            <p class="field-error" id="signup-intake-error" role="alert"></p>
+          </div>
+          <div class="form-field">
+            <label for="signup-name">Full name <span aria-hidden="true">*</span></label>
+            <input id="signup-name" name="full_name" autocomplete="name" required minlength="2" aria-describedby="signup-name-error">
+            <p class="field-error" id="signup-name-error" role="alert"></p>
+          </div>
+          <div class="form-field">
+            <label for="signup-email">Email <span aria-hidden="true">*</span></label>
+            <input id="signup-email" name="email" type="email" autocomplete="email" required aria-describedby="signup-email-error">
+            <p class="field-error" id="signup-email-error" role="alert"></p>
+          </div>
+          <div class="form-field">
+            <label for="signup-mobile">Singapore mobile <span aria-hidden="true">*</span></label>
+            <input id="signup-mobile" name="mobile" type="tel" autocomplete="tel" inputmode="tel" placeholder="+65 9123 4567" required aria-describedby="signup-mobile-error">
+            <p class="field-error" id="signup-mobile-error" role="alert"></p>
+          </div>
+          <div class="form-field">
+            <label for="signup-experience">Experience</label>
+            <select id="signup-experience" name="experience">
+              <option value="None">None</option>
+              <option value="Some">Some</option>
+              <option value="Confident">Confident</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="signup-allergies">Allergies <span class="optional">(optional)</span></label>
+            <input id="signup-allergies" name="allergies" aria-describedby="allergy-warning">
+            <p class="allergy-warning" id="allergy-warning" role="status" hidden></p>
+          </div>
+          <div class="form-field checkbox-field">
+            <label for="signup-consent"><input id="signup-consent" name="consent" type="checkbox" required aria-describedby="signup-consent-error"> I agree to be contacted about this sign-up. <span aria-hidden="true">*</span></label>
+            <p class="field-error" id="signup-consent-error" role="alert"></p>
+          </div>
+          <div class="form-field checkbox-field">
+            <label for="signup-newsletter"><input id="signup-newsletter" name="marketing_opt_in" type="checkbox"> Send me the monthly newsletter (optional).</label>
+          </div>
+          <p class="form-error" id="signup-storage-error" role="alert" tabindex="-1" hidden></p>
+          <div class="signup-actions">
+            <button class="button button-outline" id="signup-cancel" type="button">Cancel</button>
+            <button class="button button-primary" type="submit">Submit sign-up</button>
+          </div>
+        </form>
+      </div>
+      <div id="signup-success" hidden>
+        <p class="section-kicker">SIGN-UP SAVED</p>
+        <h2 id="signup-success-title">Thanks for signing up.</h2>
+        <p>Your reference number is <strong id="signup-reference"></strong>.</p>
+        <p>This sign-up is saved in this browser. Please email a copy to the academy so they can receive it.</p>
+        <a id="signup-mailto" class="button button-primary" href="#">Email this sign-up <span aria-hidden="true">↗</span></a>
+        <button class="button button-outline" id="signup-done" type="button">Done</button>
+      </div>
+    </div>
+  </dialog>
+
+  <button class="chat-launcher button button-primary" type="button" data-open-chat aria-controls="chat-panel" aria-expanded="false">Ask a question</button>
+  <section class="chat-panel" id="chat-panel" role="dialog" aria-modal="false" aria-labelledby="chat-title" hidden>
+    <div class="chat-header">
+      <div>
+        <p class="section-kicker">COURSE ASSISTANT</p>
+        <h2 id="chat-title">How can we help?</h2>
+        <span class="chat-mode" id="chat-mode">Search mode</span>
+      </div>
+      <div class="chat-header-actions">
+
+        <button class="chat-close" type="button" data-close-chat aria-label="Close course assistant">×</button>
+      </div>
+    </div>
+
+    <div class="chat-log" id="chat-log" role="log" aria-live="polite" aria-label="Conversation"></div>
+    <form class="chat-form" id="chat-form">
+      <label for="chat-input">Your question</label>
+      <div class="chat-form-row">
+        <input id="chat-input" name="question" type="text" required autocomplete="off" placeholder="Ask about fees, courses or campuses">
+        <button class="button button-primary" type="submit">Send</button>
+      </div>
+    </form>
+  </section>
+</body>
+</html>

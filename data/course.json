@@ -1,0 +1,624 @@
+{
+  "title": "ChatGPT WORK for Digital Marketing",
+  "code": "C818",
+  "version": "v1.0",
+  "date": "1 October 2026",
+  "duration": "2 days · 15 instructional hours",
+  "company": "Cook & Bake Academy",
+  "outcomes": [
+    "LO1: Delegate a grounded marketing task in ChatGPT Work and maintain a source-checked campaign brief.",
+    "LO2: Create and verify editable flyer designs and format variants using the academy brand.",
+    "LO3: Produce useful social articles, platform packages and a coherent content calendar.",
+    "LO4: Prepare a segmented email sequence, interpret synthetic campaign metrics and hand off a reviewable package."
+  ],
+  "topics": [
+    {
+      "num": 1,
+      "title": "ChatGPT Work and a grounded brief",
+      "subtitle": "Delegate an outcome · control context · verify facts",
+      "lo": "LO1",
+      "concepts": [
+        {
+          "title": "From conversation to finished work",
+          "explanation": "A short chat is useful for exploring an idea. A work task needs a defined deliverable, source material and a review boundary. Treat the agent as a production collaborator: explain the audience, name the files it may use and describe what a reviewer must be able to verify. A confident draft is not evidence that the source was read.",
+          "example": "For the bakery launch, request a campaign brief plus a claim ledger. The ledger must point each fee, date and duration to a catalogue field. The brief is complete only when both files can be opened.",
+          "pitfall": "Do not substitute an attractive response in the chat for the requested downloadable files.",
+          "labels": [
+            "Outcome|Campaign brief",
+            "Evidence|Claim ledger",
+            "Review|Open both files"
+          ],
+          "layout": "cards"
+        },
+        {
+          "title": "Choose Chat, Work or Codex",
+          "explanation": "Use Chat for quick exploration, Work for a reviewable deliverable, and Codex when developer views help. On the web, Work uses uploaded or connected sources; a desktop local project can use approved folders. These are different access routes, so ask which files are actually available before drafting. Features depend on the account and workspace.",
+          "example": "In this course Work drafts and packages the marketing assets. A browser displays the academy catalogue. A local Python server is only a way to preview the provided website.",
+          "pitfall": "Do not assume a web project can read a laptop folder, or that a copied path grants file access.",
+          "labels": [
+            "Chat|Explore a hook",
+            "Work|Build campaign files",
+            "Codex|Inspect code changes"
+          ],
+          "layout": "compare"
+        },
+        {
+          "title": "The seven-stage marketing workflow",
+          "explanation": "The reference build workflow becomes a marketing production loop: define the goal, plan the work, create assets, preserve context, version the outputs, prepare distribution and verify the result. Planning separates choices from execution. Versioning means a reviewer can tell which draft is current. Distribution preparation stops before any live send.",
+          "example": "A learner chooses one catalogue course, reviews a two-route flyer plan, creates one route, records its sources and hands the draft to a reviewer. Each revision retains the course facts.",
+          "pitfall": "Do not carry over coding-specific commands or assume hooks publish a campaign.",
+          "labels": [
+            "Goal + plan|Audience and route",
+            "Create + context|Assets and facts",
+            "Version + verify|Review package"
+          ],
+          "layout": "flow"
+        },
+        {
+          "title": "A brief is a decision document",
+          "explanation": "A useful brief answers who the message is for, what change is desired, what is being offered, why it matters and what action follows. Audience descriptions should express a need rather than a stereotype. A measurable objective names the event and the time window; target values remain UNKNOWN unless someone has supplied them.",
+          "example": "For BAK-101, a weekend home baker wants more confidence managing a starter. The proposed action is to review course details. Bookings, paid spend and sales targets are UNKNOWN in the teaching scenario.",
+          "pitfall": "A generic objective such as increase awareness cannot guide a single flyer or its verification.",
+          "labels": [
+            "Audience|Weekend home baker",
+            "Need|Starter confidence",
+            "Action|Review course details"
+          ],
+          "layout": "cards"
+        },
+        {
+          "title": "Build a claim ledger",
+          "explanation": "A claim ledger distinguishes a source fact, a creative proposal and an unknown. Store the exact field or source location, not only a vague filename. Creative language can explain value but must not change the offer. Dates and prices are copied from the selected record and checked against the website.",
+          "example": "BAK-101 has fee 680, weeks 4 and campus Orchard Road in data/courses.json. Record them as scenario facts. A proposed headline is creative copy. Seats remaining is UNKNOWN; class_size 12 is a capacity, not an availability count.",
+          "pitfall": "Never turn a capacity into scarcity or a published fee into a discount.",
+          "labels": [
+            "Fact|fee = 680",
+            "Proposal|Bake with confidence",
+            "Unknown|Seats remaining"
+          ],
+          "layout": "ledger"
+        },
+        {
+          "title": "Context has layers",
+          "explanation": "Persistent project guidance carries brand and working rules. Source files carry catalogue facts. The current prompt carries the particular task. Separate those layers so a changed campaign does not silently rewrite brand rules. A small, relevant source pack is easier to review than a large folder of unrelated drafts.",
+          "example": "The project contains brand.md, market-brief.md and courses.json. The task selects BAK-101 and asks for an A5 flyer. Past social drafts can guide voice, but cannot supply new dates.",
+          "pitfall": "Do not let a previous generated draft become the authority for course facts.",
+          "labels": [
+            "Rules|Brand voice",
+            "Sources|Catalogue record",
+            "Task|One campaign"
+          ],
+          "layout": "flow"
+        },
+        {
+          "title": "Outcome, sources, constraints, checks",
+          "explanation": "A production prompt states the artifact, permitted sources, limitations and observable checks. Ask for a short plan before production when several formats are involved. Precise feedback names the changed element and the facts that must remain fixed. This controls drift better than repeatedly asking for a nicer result.",
+          "example": "Create an A5 flyer for BAK-101 using the catalogue and brand files. Keep all factual copy editable. Return a text proof and source ledger. Stop before publishing.",
+          "pitfall": "More detail is not always better: contradictory instructions can make the deliverable impossible.",
+          "labels": [
+            "Outcome|Editable flyer",
+            "Constraints|Approved facts only",
+            "Checks|Text proof + sources"
+          ],
+          "layout": "cards"
+        },
+        {
+          "title": "Handle missing information visibly",
+          "explanation": "UNKNOWN is a useful production state. It prevents an unsupported detail from acquiring authority through repetition. Maintain an issues list with an owner and a next action. A proposed idea should be labelled as a proposal even when it sounds plausible.",
+          "example": "A cafe-owner audience angle is a proposal supported by baking relevance. A barista syllabus, voucher offer and live booking URL are absent from the catalogue and remain UNKNOWN.",
+          "pitfall": "Do not invent missing contact information just to fill a flyer footer.",
+          "labels": [
+            "Know|Catalogue facts",
+            "Propose|Audience angle",
+            "Hold|Unsupported offer"
+          ],
+          "layout": "compare"
+        },
+        {
+          "title": "Files and plugins have boundaries",
+          "explanation": "Work can use files and installed plugins, but availability and permissions vary. Grant only the context needed for the task. For class, use the supplied synthetic files and local previews. A production email tool needs a verified account, approved audience and reviewed send settings; drafting an email never authorizes sending it.",
+          "example": "If no email plugin is installed, Work still produces the sequence, HTML preview and handoff manifest as files. A marketer can import them later into an approved platform.",
+          "pitfall": "Do not paste account credentials into a prompt or include private subscriber exports.",
+          "labels": [
+            "Read|Synthetic sources",
+            "Write|Draft assets",
+            "Send|Separate approval"
+          ],
+          "layout": "cards"
+        },
+        {
+          "title": "Review the actual artifact",
+          "explanation": "Verification happens in the saved file, not only in the agent summary. Open the artifact, compare it to the brief and inspect each critical fact. Keep a review log that records the problem, correction and evidence. The person reviewing must be able to reproduce the check.",
+          "example": "The brief says BAK-101 is four weeks. Open the flyer PDF and social article to confirm both say four weeks, then compare against the selected catalogue record.",
+          "pitfall": "An agent saying checked everything is not a substitute for a readable proof.",
+          "labels": [
+            "Open|Saved file",
+            "Compare|Brief + sources",
+            "Record|Correction log"
+          ],
+          "layout": "flow"
+        },
+        {
+          "title": "Reuse the academy website",
+          "explanation": "The existing Cook & Bake Academy catalogue is the shared scenario. It has 20 synthetic courses, with 10 Bakery and 10 Cooking entries. The site separates data from presentation so fees and schedules can be compared directly with the JSON. A cafe-business angle may draw on bakery skills, but the catalogue contains no verified cafe training programme.",
+          "example": "Use Artisan Sourdough Bread Baking as the campaign spine. Keep the academy identity, existing site and original course code across the flyer, article and email.",
+          "pitfall": "Do not rename the academy or add a cafe course to make the scenario appear more complete.",
+          "labels": [
+            "Website|Original catalogue",
+            "Data|20 course records",
+            "Campaign|BAK-101"
+          ],
+          "layout": "site"
+        },
+        {
+          "title": "Checkpoint: one source of truth",
+          "explanation": "At the first checkpoint, a learner should have a campaign brief, selected course record, claim ledger and list of unknowns. These files become the input to every later lab. A recovery pack allows a learner who missed setup to rejoin without borrowing another learner’s generated files.",
+          "example": "The supplied checkpoint chooses BAK-101 and keeps discounts, real registration links and remaining seats UNKNOWN. Later assets inherit that boundary.",
+          "pitfall": "Do not proceed with conflicting course codes across the brief and ledger.",
+          "labels": [
+            "Brief|Audience + objective",
+            "Ledger|Field-level evidence",
+            "Handoff|Same code everywhere"
+          ],
+          "layout": "cards"
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "title": "Flyer design and visual review",
+      "subtitle": "Hierarchy · evidence · editable typography",
+      "lo": "LO2",
+      "concepts": [
+        {
+          "title": "Design begins with a single job",
+          "explanation": "A flyer has a small amount of attention to earn. Choose one audience and one action before arranging copy. The headline expresses the learner benefit; supporting facts reduce uncertainty; the call to action tells the reader what to do next. Every element should serve that job.",
+          "example": "For BAK-101, the main benefit is learning to manage a starter and bake loaves. Four weeks, fee and schedule are supporting facts. The CTA points to course details in the demo catalogue.",
+          "pitfall": "Do not combine three courses, two offers and several competing CTAs in the first flyer.",
+          "labels": [
+            "Headline|Learning benefit",
+            "Evidence|Offer facts",
+            "CTA|Next action"
+          ],
+          "layout": "flow"
+        },
+        {
+          "title": "Visual hierarchy controls reading",
+          "explanation": "Hierarchy uses size, placement and contrast to establish reading order. A headline is dominant, followed by the course identity and essential details, then the CTA. White space groups related information and keeps the composition calm. A photograph should support the message without making text harder to read.",
+          "example": "A natural-light bread image occupies one region while course facts sit on a cream panel. The headline is readable before the fee; the CTA has a clear boundary.",
+          "pitfall": "If every line is bold and large, the eye has no route through the page.",
+          "labels": [
+            "First|Benefit headline",
+            "Second|Course details",
+            "Third|CTA + context"
+          ],
+          "layout": "flyer"
+        },
+        {
+          "title": "Brand system versus deck theme",
+          "explanation": "The trainer deck follows the supplied terracotta, charcoal and cream reference theme. The marketing assets follow Cook & Bake’s own Crust, Ink, Cream and Basil colours with Georgia headings. These are different design systems serving different audiences. Consistency means using the correct system in each artifact.",
+          "example": "A cream academy flyer uses #B5652D as its accent and #2B211B for text. A classroom diagram uses the reference deck’s #D97757 accent.",
+          "pitfall": "Do not copy the trainer-slide palette into the academy campaign simply because it looks similar.",
+          "labels": [
+            "Crust|#B5652D",
+            "Ink|#2B211B",
+            "Cream|#FBF7F1"
+          ],
+          "layout": "palette"
+        },
+        {
+          "title": "Separate the visual from the copy",
+          "explanation": "Image generation is useful for food imagery and composition studies. Exact prices, dates and long copy are easier to verify when they remain editable in a layout tool. Treat generated artwork as illustrative, not evidence of a real class. Keep the image prompt and text proof beside the design.",
+          "example": "Generate a natural-light sourdough still life without lettering, then place the course title, source-checked fee and CTA in editable text boxes.",
+          "pitfall": "Do not use a photorealistic invented chef or classroom as proof of a real trainer or learner.",
+          "labels": [
+            "Image|Illustrative food",
+            "Copy|Editable facts",
+            "Proof|Every visible word"
+          ],
+          "layout": "compare"
+        },
+        {
+          "title": "Format is part of the brief",
+          "explanation": "Print and screen formats have different viewing conditions. An A5 portrait layout measures 148 by 210 mm. Social derivatives can use a square or portrait layout chosen for the brief. Recompose rather than crop essential information. A printer’s bleed requirement must be confirmed instead of assumed.",
+          "example": "The classroom flyer uses a 10 mm safe area. Its square derivative carries the same core facts but reduces secondary copy so the CTA remains readable.",
+          "pitfall": "A square screenshot of an A5 flyer is usually a poor social layout.",
+          "labels": [
+            "A5|148 × 210 mm",
+            "Square|1080 × 1080 brief",
+            "Story|1080 × 1920 brief"
+          ],
+          "layout": "compare"
+        },
+        {
+          "title": "Readable contrast and typography",
+          "explanation": "Text must remain readable against its background. WCAG’s minimum contrast guidance uses 4.5:1 for normal text and 3:1 for qualifying large text. These are a useful screen-design check, not a guarantee of print quality. Inspect the actual asset at a practical size as well.",
+          "example": "Use dark Ink on Cream for body copy. Avoid fine terracotta lettering over bread texture. Check the CTA at phone size and the print proof at 100 percent.",
+          "pitfall": "Do not judge contrast from the colour name or from a zoomed-in editor view alone.",
+          "labels": [
+            "Body text|4.5:1 screen check",
+            "Large text|3:1 screen check",
+            "Real size|Read the proof"
+          ],
+          "layout": "cards"
+        },
+        {
+          "title": "Every factual line needs a source",
+          "explanation": "A flyer may contain very few words, but each fee, date and location carries risk of being copied incorrectly. Transcribe all visible text and map every factual line back to the selected record. Creative headlines still need to avoid unsupported promises.",
+          "example": "The phrase four-week course maps to weeks = 4. S$680 maps to fee = 680. Saturday 9:30am–12:30pm maps to when. Tax treatment is UNKNOWN in the fictional catalogue.",
+          "pitfall": "Do not add all-inclusive or guaranteed success unless an approved source supports it.",
+          "labels": [
+            "Text proof|Visible words",
+            "Ledger|Source fields",
+            "Revision|Named correction"
+          ],
+          "layout": "ledger"
+        },
+        {
+          "title": "Use two routes, then choose",
+          "explanation": "A route is a different design approach to the same brief, not a random variation in facts. Compare routes against the audience, hierarchy and readability. Choose one route before spending time on production details. The rejected route can remain in the review notes as an explanation of the decision.",
+          "example": "Route A leads with a finished loaf and practical benefit. Route B leads with hands shaping dough. Both carry the same course code, fee, duration and CTA.",
+          "pitfall": "Changing the offer between routes makes the comparison meaningless.",
+          "labels": [
+            "Route A|Finished loaf",
+            "Route B|Hands at work",
+            "Decision|Audience + clarity"
+          ],
+          "layout": "compare"
+        },
+        {
+          "title": "Revise with a bounded instruction",
+          "explanation": "Good feedback says what to change, why and what must remain fixed. A narrow correction reduces accidental changes to already verified facts. After revision, compare the full proof again because a small layout change can hide text or alter reading order.",
+          "example": "Move the fee to the details panel and increase body text size. Preserve the course title, four-week duration, schedule, brand colours and tagline exactly.",
+          "pitfall": "Do not accept a corrected date while overlooking a new spelling error elsewhere.",
+          "labels": [
+            "Change|One layout issue",
+            "Preserve|Verified facts",
+            "Recheck|Complete proof"
+          ],
+          "layout": "flow"
+        },
+        {
+          "title": "QR codes and links must be real",
+          "explanation": "A QR code is a navigation mechanism, not decoration. A generated imitation can look convincing but lead nowhere. Use only a verified destination; otherwise use an explicitly labelled placeholder or omit the code. The demo local website is not a public booking destination.",
+          "example": "The classroom flyer labels its action View course details in the demo catalogue. Its link goes to the provided local preview. No real registration promise is made.",
+          "pitfall": "Do not make a placeholder look like a working public booking code.",
+          "labels": [
+            "Destination|Verified URL",
+            "Code|Test by scanning",
+            "Unknown|Omit or label"
+          ],
+          "layout": "cards"
+        },
+        {
+          "title": "Quality review is a comparison",
+          "explanation": "A useful review compares the artifact with a specific criterion and records evidence. It checks hierarchy, factual accuracy, brand voice, mobile readability and missing information separately. A polished visual can fail the fact check even when it succeeds aesthetically.",
+          "example": "A review row records fee visible in PDF, source fee = 680, and accepted or revise. A second row checks the CTA at phone size.",
+          "pitfall": "Avoid an overall looks good note that does not show what was checked.",
+          "labels": [
+            "Visual|Hierarchy + crop",
+            "Factual|Ledger comparison",
+            "Usability|Actual-size reading"
+          ],
+          "layout": "ledger"
+        },
+        {
+          "title": "Checkpoint: three usable formats",
+          "explanation": "The flyer checkpoint contains the editable A5 source, PDF proof, square derivative, story derivative, generation prompt if used and text proof. Keep a manifest that gives each file’s purpose and status. All formats carry the same course identity and none is a live advertisement.",
+          "example": "The sample checkpoint is a typographic classroom layout. Learners can replace the visual with an approved image while preserving the factual text and source ledger.",
+          "pitfall": "Do not hand off only flattened screenshots when an editable design was requested.",
+          "labels": [
+            "Editable|A5 source",
+            "Portable|PDF proof",
+            "Derivative|Square + story"
+          ],
+          "layout": "cards"
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "title": "Social articles and content planning",
+      "subtitle": "Useful teaching angles · adaptation · calendar",
+      "lo": "LO3",
+      "concepts": [
+        {
+          "title": "A social article has a useful promise",
+          "explanation": "A social article develops an idea beyond a short caption. Begin with the reader’s problem, explain a practical perspective and connect it to a relevant course without making the piece a long advertisement. Separate culinary guidance that needs expert review from catalogue facts.",
+          "example": "An article about building starter confidence explains what a beginner should look for in a structured class. It uses BAK-101’s learning outcomes as evidence without inventing a recipe.",
+          "pitfall": "Avoid presenting unverified food-safety or fermentation instructions as authoritative advice.",
+          "labels": [
+            "Problem|Starter uncertainty",
+            "Idea|Learn a repeatable process",
+            "Evidence|Catalogue outcomes"
+          ],
+          "layout": "flow"
+        },
+        {
+          "title": "Choose a content pillar",
+          "explanation": "A content pillar is a repeatable area of value for an audience. For the academy, useful pillars include skill confidence, process and preparation, course discovery and learner questions. Pillars prevent a calendar from becoming repeated sales copy. They must still serve the campaign objective.",
+          "example": "The first article focuses on confidence. A second post explains what to bring. A course-discovery post introduces the selected course using the exact catalogue fields.",
+          "pitfall": "A pillar called engagement is too vague to help a writer choose an angle.",
+          "labels": [
+            "Teach|Skill confidence",
+            "Show|Process + preparation",
+            "Invite|Course discovery"
+          ],
+          "layout": "cards"
+        },
+        {
+          "title": "Use a hook without inventing a result",
+          "explanation": "A hook makes the reader want to continue. It can name a familiar problem or a useful question. It should not create a guarantee, fake scarcity or an invented learner testimonial. Test whether the body actually fulfils the hook’s promise.",
+          "example": "Your starter needs a routine, not guesswork is a creative hook. Become an expert in four weeks overstates the course’s outcomes and should be rejected.",
+          "pitfall": "Clickbait creates attention that the article cannot justify.",
+          "labels": [
+            "Hook|Recognisable problem",
+            "Body|Useful explanation",
+            "CTA|Relevant next step"
+          ],
+          "layout": "compare"
+        },
+        {
+          "title": "Structure a self-contained article",
+          "explanation": "An article needs an opening, a developed middle and a conclusion with one next action. Each section should advance the idea. Keep catalogue facts in a clearly sourced block and distinguish advice from the offer. Use headings so readers can scan before deciding to read fully.",
+          "example": "A 500–700 word classroom article has three sections: the beginner’s problem, the learning process and what the selected class covers. Its final CTA points to course details.",
+          "pitfall": "Do not pad the article with repeated AI phrases or unsupported claims to hit a word count.",
+          "labels": [
+            "Opening|Name the need",
+            "Middle|Explain the idea",
+            "Ending|One next action"
+          ],
+          "layout": "flow"
+        },
+        {
+          "title": "Repurpose the idea, not the paragraph",
+          "explanation": "Repurposing retains the central promise and source facts while changing the format. A short caption may foreground one useful insight; a carousel divides the idea into discrete panels; a long article provides context. Each format needs its own reading rhythm and one CTA.",
+          "example": "Turn the article into an Instagram caption under 120 words and a Facebook post. Both keep the BAK-101 course title and avoid copying the full article opening.",
+          "pitfall": "Pasting the same long paragraph everywhere ignores how people read each format.",
+          "labels": [
+            "Article|Develop the idea",
+            "Caption|One useful insight",
+            "Carousel|Panel sequence"
+          ],
+          "layout": "compare"
+        },
+        {
+          "title": "Voice is a set of choices",
+          "explanation": "The academy voice is warm, practical and confident. Prefer concrete actions and short sentences. The exact tagline is Learn it. Make it. Take it further. Brand voice can vary slightly by format without changing factual meaning. Remove hype that substitutes for evidence.",
+          "example": "Learn to feed and maintain a starter is grounded in the course outcomes. Unlock your limitless culinary potential is vague and inconsistent with the brand.",
+          "pitfall": "A casual voice does not justify exaggeration or invented personal experience.",
+          "labels": [
+            "Warm|Helpful language",
+            "Practical|Concrete action",
+            "Confident|Supported claims"
+          ],
+          "layout": "cards"
+        },
+        {
+          "title": "Alt text describes the actual visual",
+          "explanation": "Alt text conveys the meaningful content of an image to someone who cannot see it. Describe the actual image and its role. Avoid claiming a photo shows a real learner, trainer or venue unless that is verified. Proposed alt text is provisional until the chosen asset exists.",
+          "example": "For an illustrative loaf image: A sliced sourdough loaf on a cream work surface, with its crumb visible. A flyer’s essential offer should also appear in nearby text.",
+          "pitfall": "Do not use alt text as a pile of keywords or describe an image that was never generated.",
+          "labels": [
+            "Observe|Actual contents",
+            "Describe|Relevant meaning",
+            "Verify|No invented identity"
+          ],
+          "layout": "cards"
+        },
+        {
+          "title": "A calendar is a coordination tool",
+          "explanation": "A content calendar records the message, format, audience, source, owner and review status. Relative day labels avoid implying a real scheduled launch. Dependencies show which assets must be ready first. A calendar should help a team produce and review, not merely assign dates.",
+          "example": "Day 1 introduces the article, Day 3 shares a preparation caption, Day 5 uses the flyer. Each row identifies BAK-101 and points to the same claim ledger.",
+          "pitfall": "A proposed calendar is not proof that posts are scheduled or published.",
+          "labels": [
+            "Plan|Relative day",
+            "Produce|Named asset",
+            "Review|Owner + status"
+          ],
+          "layout": "calendar"
+        },
+        {
+          "title": "Balance teaching and promotion",
+          "explanation": "The reused academy social workflow limits hard-sell posts to one in five. This is a classroom brand rule rather than a universal algorithm rule. Educational and preparation posts can still support the campaign by helping the reader make a decision. Keep promotional status explicit in the calendar.",
+          "example": "A five-post set uses three teaching angles, one practical question and one direct course invitation. All five have a clear purpose and appropriate CTA.",
+          "pitfall": "Do not label every post educational while all five ask for an immediate purchase.",
+          "labels": [
+            "3 posts|Teach a useful idea",
+            "1 post|Answer a question",
+            "1 post|Direct invitation"
+          ],
+          "layout": "compare"
+        },
+        {
+          "title": "Check originality and attribution",
+          "explanation": "Originality means developing the message from approved facts and a fresh angle, not paraphrasing a competitor’s post. Keep quotations short, attribute them when used and avoid fabricated testimonials. For class, original prose based on the synthetic catalogue is sufficient.",
+          "example": "The learner drafts an article about choosing a starter-focused course and records the learning outcomes used. No external chef quote is needed to make it persuasive.",
+          "pitfall": "Do not ask Work to imitate a living writer or scrape a competitor article into the draft.",
+          "labels": [
+            "Sources|Approved facts",
+            "Writing|Original prose",
+            "Quotes|Verified attribution"
+          ],
+          "layout": "cards"
+        },
+        {
+          "title": "Review beyond spelling",
+          "explanation": "Editorial review checks the promise, logic, audience relevance, source fidelity and action. Read the piece aloud to find stiff language. Compare each short-form derivative against the article’s meaning. A source ledger catches facts; an editorial checklist catches whether the article earns its CTA.",
+          "example": "A reviewer removes a claim that all beginners struggle and replaces it with a question: Unsure how to keep a starter routine? The proposition becomes more precise.",
+          "pitfall": "Perfect grammar does not rescue a weak idea or unsupported claim.",
+          "labels": [
+            "Meaning|Does it help?",
+            "Evidence|Is it supported?",
+            "Action|Is it clear?"
+          ],
+          "layout": "ledger"
+        },
+        {
+          "title": "Checkpoint: one idea across channels",
+          "explanation": "The social checkpoint contains the article, platform packages, a five-post calendar and editorial review. Every item has a source and a draft status. The learner can explain how the format changed while the core idea and offer stayed consistent.",
+          "example": "Use the supplied draft article and caption checkpoint if a previous task stalled. Continue by revising it against your own brief, rather than treating the sample as an approved campaign.",
+          "pitfall": "Do not mark a proposed post as live to make the handoff appear complete.",
+          "labels": [
+            "Article|Developed argument",
+            "Packages|Hook + CTA + alt text",
+            "Calendar|Review-ready plan"
+          ],
+          "layout": "cards"
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "title": "Email campaign and measurement",
+      "subtitle": "Audience rules · sequence · evidence · handoff",
+      "lo": "LO4",
+      "concepts": [
+        {
+          "title": "Email is a sequence of decisions",
+          "explanation": "A campaign sequence gives each message a distinct job. Introduction establishes relevance, follow-up reduces uncertainty and a final reminder helps someone act. The timing is a proposal until approved. Repetition should reinforce the decision rather than repeat the same sales paragraph.",
+          "example": "Email 1 introduces BAK-101, Email 2 addresses what learners practise and Email 3 reminds interested readers to view details. No deadline or seats-left claim is invented.",
+          "pitfall": "Do not add fake urgency just because the last message is called a reminder.",
+          "labels": [
+            "Introduce|Why this course",
+            "Clarify|What to expect",
+            "Remind|One next action"
+          ],
+          "layout": "flow"
+        },
+        {
+          "title": "Audience eligibility comes before copy",
+          "explanation": "Segmentation chooses recipients by relevant, authorised criteria. Consent and suppression are eligibility rules, not optional message preferences. For class, use a synthetic contact file and a stated rule so learners can prove who is included. Production requirements must be checked by the organisation before a real send.",
+          "example": "Include consent = yes, interest = bakery and suppressed = no. Exclude cooking-only interests, missing consent and suppressed contacts. All supplied addresses use example.com.",
+          "pitfall": "Do not infer marketing permission from a purchase or from a public email address.",
+          "labels": [
+            "Include|Relevant interest",
+            "Require|Recorded permission",
+            "Exclude|Suppressed contacts"
+          ],
+          "layout": "flow"
+        },
+        {
+          "title": "Subject, preheader and body cooperate",
+          "explanation": "A subject line helps a reader decide whether the message is relevant. A preheader adds information instead of repeating the subject. The body fulfils the promise with useful detail and a single primary CTA. Lengths in this course are brief requirements, not universal platform limits.",
+          "example": "Subject: Build your sourdough routine. Preheader: Explore a four-week starter-focused class. The body explains the learning outcomes and links to the demo course details.",
+          "pitfall": "Do not promise a discount in the subject when the body and catalogue contain none.",
+          "labels": [
+            "Subject|Reason to open",
+            "Preheader|Additional context",
+            "Body|Fulfil the promise"
+          ],
+          "layout": "email"
+        },
+        {
+          "title": "Personalisation needs a fallback",
+          "explanation": "Personalisation should improve relevance without making unsupported assumptions. A missing first name needs a sensible fallback. Merge fields are platform-specific and must be previewed in the chosen sending tool. The classroom HTML uses neutral text and records where a platform-specific field would be inserted.",
+          "example": "Use Hello there when a name is absent. Refer to your interest in baking only for contacts whose synthetic record says bakery.",
+          "pitfall": "Do not address someone by a broken merge tag or expose sensitive personal data in copy.",
+          "labels": [
+            "Known|Explicit interest",
+            "Missing|Neutral fallback",
+            "Preview|Actual recipient view"
+          ],
+          "layout": "cards"
+        },
+        {
+          "title": "HTML email must work without decoration",
+          "explanation": "Email clients vary in layout support. A simple single-column structure with readable text and a visible CTA is a useful starting point. A plain-text version carries the same message. A browser preview checks content and narrow-screen layout, but does not prove rendering in every inbox client.",
+          "example": "A 600 px maximum-width template includes the course facts as live text, a CTA link, a demo unsubscribe placeholder and a plain-text sibling file.",
+          "pitfall": "Do not call a browser-only preview an inbox deliverability test.",
+          "labels": [
+            "HTML|Simple structure",
+            "Text|Equivalent message",
+            "Preview|Client limitations"
+          ],
+          "layout": "compare"
+        },
+        {
+          "title": "The send gate is separate",
+          "explanation": "Production sending requires the approved account, audience, sender details, unsubscribe handling and current links. The classroom package is deliberately unsent. Its manifest lists the items a marketer would confirm in the real platform. A generated send-ready label cannot replace those checks.",
+          "example": "The handoff contains status classroom draft, production sender UNKNOWN and unsubscribe provider configuration UNKNOWN. The learner previews the message without uploading contacts to a service.",
+          "pitfall": "Do not allow a plugin to send because the copy has been reviewed.",
+          "labels": [
+            "Draft|Content approved",
+            "Configure|Sender + audience",
+            "Authorize|Real send"
+          ],
+          "layout": "flow"
+        },
+        {
+          "title": "Use a consistent tracking taxonomy",
+          "explanation": "Tracking parameters identify source, medium, campaign and creative variant. Choose a naming convention before generating links so analysis remains comparable. Tracking is descriptive: adding parameters does not itself record a conversion. Use local or example.com destinations for the synthetic exercise.",
+          "example": "utm_source = email, utm_medium = newsletter, utm_campaign = sourdough_oct_demo and utm_content = e1_a. A website would still need approved analytics to record visits and bookings.",
+          "pitfall": "Never put subscriber email addresses or names into URL parameters.",
+          "labels": [
+            "Source|email",
+            "Campaign|sourdough_oct_demo",
+            "Variant|e1_a"
+          ],
+          "layout": "ledger"
+        },
+        {
+          "title": "Measure the next action",
+          "explanation": "Different metrics answer different questions. Delivery measures reach, unique clicks measure interaction and bookings measure a business action. Define denominators before comparing variants. The synthetic exercise uses unique clicks divided by delivered emails and bookings divided by unique clicks.",
+          "example": "Variant A: 980 delivered, 49 unique clicks and 7 bookings gives 5.0% click rate and 14.3% click-to-booking conversion. These are invented teaching figures, not academy performance.",
+          "pitfall": "Do not divide total clicks by recipients and call it a unique click rate.",
+          "labels": [
+            "Delivery|Reach",
+            "Unique clicks|Interaction",
+            "Bookings|Business action"
+          ],
+          "layout": "metrics"
+        },
+        {
+          "title": "Opens are an imperfect signal",
+          "explanation": "Open and click reports can be affected by automated activity and privacy features. Treat an open-rate change as a signal to investigate rather than proof of improved persuasion. Choose a metric closer to the campaign’s intended action and document its limitations.",
+          "example": "The learner compares unique clicks and bookings in the synthetic file. Real performance and bot filtering are UNKNOWN, so the recommendation is a proposed next test rather than a sales claim.",
+          "pitfall": "Do not claim revenue growth from open rate alone.",
+          "labels": [
+            "Signal|Reported opens",
+            "Limit|Privacy + bots",
+            "Decision|Action-based evidence"
+          ],
+          "layout": "compare"
+        },
+        {
+          "title": "Design a controlled comparison",
+          "explanation": "A useful A/B comparison changes one meaningful element while keeping audience and timing comparable. State the hypothesis, metric, split and review window in advance. Small synthetic samples illustrate arithmetic but do not establish statistical confidence or a universal winner.",
+          "example": "Change only the subject line between A and B. Keep body, CTA and selection rule fixed. Variant B has a higher click rate in the teaching data; the sample is too small to claim a reliable lift.",
+          "pitfall": "If everything changes, you cannot explain which change mattered.",
+          "labels": [
+            "Hypothesis|Clearer subject helps",
+            "Control|Same body + audience",
+            "Review|Counts + uncertainty"
+          ],
+          "layout": "flow"
+        },
+        {
+          "title": "Handoff makes work reusable",
+          "explanation": "A handoff manifest lists each file, version, purpose, source, review status and unresolved issue. The next marketer should know what can be used and what still needs confirmation. Separate current files from superseded drafts and preserve the evidence that supports the final version.",
+          "example": "The package includes the flyer, article, calendar, three emails, segmentation result and metrics note. All are marked classroom draft; live account settings and real launch targets remain UNKNOWN.",
+          "pitfall": "Do not hide unresolved facts in an appendix while labelling the campaign final.",
+          "labels": [
+            "Inventory|Files + version",
+            "Evidence|Claims + review",
+            "Holds|Unknowns + owner"
+          ],
+          "layout": "ledger"
+        },
+        {
+          "title": "Checkpoint: defend the recommendation",
+          "explanation": "The final checkpoint asks the learner to explain a decision using the assets and data. A short recommendation should name what was observed, what remains uncertain and what should be tried next. This closes the loop from brief through production to verification.",
+          "example": "The proposed next test is a clearer subject line with a longer observation window. The learner retains the selected course facts, audience rule and review package rather than reporting invented business success.",
+          "pitfall": "Do not confuse completing the classroom deliverables with publishing a real campaign.",
+          "labels": [
+            "Observed|Synthetic counts",
+            "Uncertain|Reliable lift",
+            "Next|One controlled test"
+          ],
+          "layout": "cards"
+        }
+      ]
+    }
+  ]
+}

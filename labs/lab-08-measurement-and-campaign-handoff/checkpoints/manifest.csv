@@ -1,0 +1,3 @@
+path,purpose,version,source,status,unresolved_issue
+campaign/metrics.csv,synthetic analysis,1.0,campaign-results.csv,classroom draft,real performance UNKNOWN
+campaign/recommendation.md,next test,1.0,metrics.csv,classroom draft,observation window UNKNOWN

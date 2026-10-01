@@ -1,0 +1,458 @@
+[
+  {
+    "num": 1,
+    "title": "ChatGPT WORK for Digital Marketing",
+    "type": "admin",
+    "tag": "COVER"
+  },
+  {
+    "num": 2,
+    "title": "What you will build",
+    "type": "concept",
+    "tag": "COURSE OVERVIEW"
+  },
+  {
+    "num": 3,
+    "title": "Learning outcomes",
+    "type": "concept",
+    "tag": "COURSE OVERVIEW"
+  },
+  {
+    "num": 4,
+    "title": "How You\u2019ll Learn",
+    "type": "concept",
+    "tag": "LEARNING FLOW"
+  },
+  {
+    "num": 5,
+    "title": "Two days, one connected campaign",
+    "type": "concept",
+    "tag": "COURSE ROUTE"
+  },
+  {
+    "num": 6,
+    "title": "Bring the right tools and context",
+    "type": "concept",
+    "tag": "SETUP"
+  },
+  {
+    "num": 7,
+    "title": "Ground rules for useful work",
+    "type": "concept",
+    "tag": "HOUSEKEEPING"
+  },
+  {
+    "num": 8,
+    "title": "The existing Cook & Bake Academy site",
+    "type": "concept",
+    "tag": "SHARED SCENARIO"
+  },
+  {
+    "num": 9,
+    "title": "ChatGPT Work and a grounded brief",
+    "type": "section",
+    "tag": "TOPIC 1 \u00b7 LO1"
+  },
+  {
+    "num": 10,
+    "title": "From conversation to finished work",
+    "type": "concept",
+    "tag": "TOPIC 1 \u00b7 CONCEPT"
+  },
+  {
+    "num": 11,
+    "title": "Choose Chat, Work or Codex",
+    "type": "concept",
+    "tag": "TOPIC 1 \u00b7 CONCEPT"
+  },
+  {
+    "num": 12,
+    "title": "The seven-stage marketing workflow",
+    "type": "concept",
+    "tag": "TOPIC 1 \u00b7 CONCEPT"
+  },
+  {
+    "num": 13,
+    "title": "A brief is a decision document",
+    "type": "concept",
+    "tag": "TOPIC 1 \u00b7 CONCEPT"
+  },
+  {
+    "num": 14,
+    "title": "Build a claim ledger",
+    "type": "concept",
+    "tag": "TOPIC 1 \u00b7 CONCEPT"
+  },
+  {
+    "num": 15,
+    "title": "Context has layers",
+    "type": "concept",
+    "tag": "TOPIC 1 \u00b7 CONCEPT"
+  },
+  {
+    "num": 16,
+    "title": "Outcome, sources, constraints, checks",
+    "type": "concept",
+    "tag": "TOPIC 1 \u00b7 CONCEPT"
+  },
+  {
+    "num": 17,
+    "title": "Handle missing information visibly",
+    "type": "concept",
+    "tag": "TOPIC 1 \u00b7 CONCEPT"
+  },
+  {
+    "num": 18,
+    "title": "Files and plugins have boundaries",
+    "type": "concept",
+    "tag": "TOPIC 1 \u00b7 CONCEPT"
+  },
+  {
+    "num": 19,
+    "title": "Review the actual artifact",
+    "type": "concept",
+    "tag": "TOPIC 1 \u00b7 CONCEPT"
+  },
+  {
+    "num": 20,
+    "title": "Reuse the academy website",
+    "type": "concept",
+    "tag": "TOPIC 1 \u00b7 CONCEPT"
+  },
+  {
+    "num": 21,
+    "title": "Checkpoint: one source of truth",
+    "type": "concept",
+    "tag": "TOPIC 1 \u00b7 CONCEPT"
+  },
+  {
+    "num": 22,
+    "title": "Lab 01 \u00b7 Create a grounded campaign brief",
+    "type": "lab",
+    "tag": "LAB OVERVIEW \u00b7 45 MINUTES"
+  },
+  {
+    "num": 23,
+    "title": "Lab 02 \u00b7 Build a reusable marketing workflow",
+    "type": "lab",
+    "tag": "LAB OVERVIEW \u00b7 50 MINUTES"
+  },
+  {
+    "num": 24,
+    "title": "Topic 1 recap",
+    "type": "recap",
+    "tag": "RECAP \u00b7 LO1"
+  },
+  {
+    "num": 25,
+    "title": "Flyer design and visual review",
+    "type": "section",
+    "tag": "TOPIC 2 \u00b7 LO2"
+  },
+  {
+    "num": 26,
+    "title": "Design begins with a single job",
+    "type": "concept",
+    "tag": "TOPIC 2 \u00b7 CONCEPT"
+  },
+  {
+    "num": 27,
+    "title": "Visual hierarchy controls reading",
+    "type": "concept",
+    "tag": "TOPIC 2 \u00b7 CONCEPT"
+  },
+  {
+    "num": 28,
+    "title": "Brand system versus deck theme",
+    "type": "concept",
+    "tag": "TOPIC 2 \u00b7 CONCEPT"
+  },
+  {
+    "num": 29,
+    "title": "Separate the visual from the copy",
+    "type": "concept",
+    "tag": "TOPIC 2 \u00b7 CONCEPT"
+  },
+  {
+    "num": 30,
+    "title": "Format is part of the brief",
+    "type": "concept",
+    "tag": "TOPIC 2 \u00b7 CONCEPT"
+  },
+  {
+    "num": 31,
+    "title": "Readable contrast and typography",
+    "type": "concept",
+    "tag": "TOPIC 2 \u00b7 CONCEPT"
+  },
+  {
+    "num": 32,
+    "title": "Every factual line needs a source",
+    "type": "concept",
+    "tag": "TOPIC 2 \u00b7 CONCEPT"
+  },
+  {
+    "num": 33,
+    "title": "Use two routes, then choose",
+    "type": "concept",
+    "tag": "TOPIC 2 \u00b7 CONCEPT"
+  },
+  {
+    "num": 34,
+    "title": "Revise with a bounded instruction",
+    "type": "concept",
+    "tag": "TOPIC 2 \u00b7 CONCEPT"
+  },
+  {
+    "num": 35,
+    "title": "QR codes and links must be real",
+    "type": "concept",
+    "tag": "TOPIC 2 \u00b7 CONCEPT"
+  },
+  {
+    "num": 36,
+    "title": "Quality review is a comparison",
+    "type": "concept",
+    "tag": "TOPIC 2 \u00b7 CONCEPT"
+  },
+  {
+    "num": 37,
+    "title": "Checkpoint: three usable formats",
+    "type": "concept",
+    "tag": "TOPIC 2 \u00b7 CONCEPT"
+  },
+  {
+    "num": 38,
+    "title": "Lab 03 \u00b7 Design an editable bakery flyer",
+    "type": "lab",
+    "tag": "LAB OVERVIEW \u00b7 75 MINUTES"
+  },
+  {
+    "num": 39,
+    "title": "Lab 04 \u00b7 Adapt and review the flyer variants",
+    "type": "lab",
+    "tag": "LAB OVERVIEW \u00b7 55 MINUTES"
+  },
+  {
+    "num": 40,
+    "title": "Topic 2 recap",
+    "type": "recap",
+    "tag": "RECAP \u00b7 LO2"
+  },
+  {
+    "num": 41,
+    "title": "Social articles and content planning",
+    "type": "section",
+    "tag": "TOPIC 3 \u00b7 LO3"
+  },
+  {
+    "num": 42,
+    "title": "A social article has a useful promise",
+    "type": "concept",
+    "tag": "TOPIC 3 \u00b7 CONCEPT"
+  },
+  {
+    "num": 43,
+    "title": "Choose a content pillar",
+    "type": "concept",
+    "tag": "TOPIC 3 \u00b7 CONCEPT"
+  },
+  {
+    "num": 44,
+    "title": "Use a hook without inventing a result",
+    "type": "concept",
+    "tag": "TOPIC 3 \u00b7 CONCEPT"
+  },
+  {
+    "num": 45,
+    "title": "Structure a self-contained article",
+    "type": "concept",
+    "tag": "TOPIC 3 \u00b7 CONCEPT"
+  },
+  {
+    "num": 46,
+    "title": "Repurpose the idea, not the paragraph",
+    "type": "concept",
+    "tag": "TOPIC 3 \u00b7 CONCEPT"
+  },
+  {
+    "num": 47,
+    "title": "Voice is a set of choices",
+    "type": "concept",
+    "tag": "TOPIC 3 \u00b7 CONCEPT"
+  },
+  {
+    "num": 48,
+    "title": "Alt text describes the actual visual",
+    "type": "concept",
+    "tag": "TOPIC 3 \u00b7 CONCEPT"
+  },
+  {
+    "num": 49,
+    "title": "A calendar is a coordination tool",
+    "type": "concept",
+    "tag": "TOPIC 3 \u00b7 CONCEPT"
+  },
+  {
+    "num": 50,
+    "title": "Balance teaching and promotion",
+    "type": "concept",
+    "tag": "TOPIC 3 \u00b7 CONCEPT"
+  },
+  {
+    "num": 51,
+    "title": "Check originality and attribution",
+    "type": "concept",
+    "tag": "TOPIC 3 \u00b7 CONCEPT"
+  },
+  {
+    "num": 52,
+    "title": "Review beyond spelling",
+    "type": "concept",
+    "tag": "TOPIC 3 \u00b7 CONCEPT"
+  },
+  {
+    "num": 53,
+    "title": "Checkpoint: one idea across channels",
+    "type": "concept",
+    "tag": "TOPIC 3 \u00b7 CONCEPT"
+  },
+  {
+    "num": 54,
+    "title": "Lab 05 \u00b7 Write a social article and platform packages",
+    "type": "lab",
+    "tag": "LAB OVERVIEW \u00b7 70 MINUTES"
+  },
+  {
+    "num": 55,
+    "title": "Lab 06 \u00b7 Build a content calendar and editorial gate",
+    "type": "lab",
+    "tag": "LAB OVERVIEW \u00b7 60 MINUTES"
+  },
+  {
+    "num": 56,
+    "title": "Topic 3 recap",
+    "type": "recap",
+    "tag": "RECAP \u00b7 LO3"
+  },
+  {
+    "num": 57,
+    "title": "Email campaign and measurement",
+    "type": "section",
+    "tag": "TOPIC 4 \u00b7 LO4"
+  },
+  {
+    "num": 58,
+    "title": "Email is a sequence of decisions",
+    "type": "concept",
+    "tag": "TOPIC 4 \u00b7 CONCEPT"
+  },
+  {
+    "num": 59,
+    "title": "Audience eligibility comes before copy",
+    "type": "concept",
+    "tag": "TOPIC 4 \u00b7 CONCEPT"
+  },
+  {
+    "num": 60,
+    "title": "Subject, preheader and body cooperate",
+    "type": "concept",
+    "tag": "TOPIC 4 \u00b7 CONCEPT"
+  },
+  {
+    "num": 61,
+    "title": "Personalisation needs a fallback",
+    "type": "concept",
+    "tag": "TOPIC 4 \u00b7 CONCEPT"
+  },
+  {
+    "num": 62,
+    "title": "HTML email must work without decoration",
+    "type": "concept",
+    "tag": "TOPIC 4 \u00b7 CONCEPT"
+  },
+  {
+    "num": 63,
+    "title": "The send gate is separate",
+    "type": "concept",
+    "tag": "TOPIC 4 \u00b7 CONCEPT"
+  },
+  {
+    "num": 64,
+    "title": "Use a consistent tracking taxonomy",
+    "type": "concept",
+    "tag": "TOPIC 4 \u00b7 CONCEPT"
+  },
+  {
+    "num": 65,
+    "title": "Measure the next action",
+    "type": "concept",
+    "tag": "TOPIC 4 \u00b7 CONCEPT"
+  },
+  {
+    "num": 66,
+    "title": "Opens are an imperfect signal",
+    "type": "concept",
+    "tag": "TOPIC 4 \u00b7 CONCEPT"
+  },
+  {
+    "num": 67,
+    "title": "Design a controlled comparison",
+    "type": "concept",
+    "tag": "TOPIC 4 \u00b7 CONCEPT"
+  },
+  {
+    "num": 68,
+    "title": "Handoff makes work reusable",
+    "type": "concept",
+    "tag": "TOPIC 4 \u00b7 CONCEPT"
+  },
+  {
+    "num": 69,
+    "title": "Checkpoint: defend the recommendation",
+    "type": "concept",
+    "tag": "TOPIC 4 \u00b7 CONCEPT"
+  },
+  {
+    "num": 70,
+    "title": "Lab 07 \u00b7 Prepare a segmented email campaign",
+    "type": "lab",
+    "tag": "LAB OVERVIEW \u00b7 85 MINUTES"
+  },
+  {
+    "num": 71,
+    "title": "Lab 08 \u00b7 Measure and hand off the campaign",
+    "type": "lab",
+    "tag": "LAB OVERVIEW \u00b7 50 MINUTES"
+  },
+  {
+    "num": 72,
+    "title": "Topic 4 recap",
+    "type": "recap",
+    "tag": "RECAP \u00b7 LO4"
+  },
+  {
+    "num": 73,
+    "title": "What you achieved",
+    "type": "closing",
+    "tag": "WRAP-UP"
+  },
+  {
+    "num": 74,
+    "title": "Keep practising",
+    "type": "closing",
+    "tag": "NEXT STEPS"
+  },
+  {
+    "num": 75,
+    "title": "Sources and further reading",
+    "type": "closing",
+    "tag": "LEARNING RESOURCES"
+  },
+  {
+    "num": 76,
+    "title": "Thank you",
+    "type": "closing",
+    "tag": "C818 \u00b7 TERTIARY INFOTECH"
+  }
+]

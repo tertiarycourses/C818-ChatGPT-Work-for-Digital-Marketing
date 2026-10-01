@@ -1,0 +1,6 @@
+post,criterion,evidence,status,correction
+P01,source fidelity,BAK-101 learn checked,reviewed,none
+P02,CTA count,one View details CTA,reviewed,none
+P03,hashtags,five relevant hashtags,reviewed,none
+P04,alt text,proposed text labelled,reviewed,replace after actual visual chosen
+P05,promotional balance,one hard sell among five rows,reviewed,none

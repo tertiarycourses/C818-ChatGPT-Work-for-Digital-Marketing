@@ -1,0 +1,13 @@
+claim,value,source_field,status
+"code","BAK-101","data/courses.json BAK-101.code","scenario fact"
+"title","Artisan Sourdough Bread Baking","data/courses.json BAK-101.title","scenario fact"
+"fee","680","data/courses.json BAK-101.fee","scenario fact"
+"weeks","4","data/courses.json BAK-101.weeks","scenario fact"
+"when","Saturday 9:30am–12:30pm","data/courses.json BAK-101.when","scenario fact"
+"campus","Orchard Road","data/courses.json BAK-101.campus","scenario fact"
+"allergens","wheat (gluten), rye, sesame","data/courses.json BAK-101.allergens","scenario fact"
+"remaining seats","UNKNOWN","absent","UNKNOWN"
+"discount","UNKNOWN","absent","UNKNOWN"
+"tax treatment","UNKNOWN","absent","UNKNOWN"
+"public booking link","UNKNOWN","absent","UNKNOWN"
+"sales target","UNKNOWN","absent","UNKNOWN"

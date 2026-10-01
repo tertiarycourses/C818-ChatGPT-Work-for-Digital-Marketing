@@ -1,0 +1,25 @@
+{
+  "code": "BAK-101",
+  "title": "Artisan Sourdough Bread Baking",
+  "cat": "Bakery",
+  "level": "Beginner",
+  "weeks": 4,
+  "fee": 680,
+  "campus": "Orchard Road",
+  "img": "1589367920969-ab8e050bbb04",
+  "when": "Saturday 9:30am\u201312:30pm",
+  "summary": "Build and keep a starter, then bake open-crumb country loaves, baguettes and a seeded rye at home.",
+  "learn": [
+    "Feed and maintain a wild-yeast starter",
+    "Mix, stretch-and-fold and shape by hand",
+    "Read proof by feel and by the poke test",
+    "Score and bake in a home oven with a Dutch oven"
+  ],
+  "allergens": "wheat (gluten), rye, sesame",
+  "bring": "A 1-litre jar for your starter and a container for your loaves",
+  "intakes": [
+    "2026-10-10",
+    "2026-12-05"
+  ],
+  "class_size": 12
+}
